@@ -1,5 +1,7 @@
 # auth — EntradasYa
 
+[![CI](https://github.com/jdguior06/entradasya-auth/actions/workflows/ci.yml/badge.svg?branch=development)](https://github.com/jdguior06/entradasya-auth/actions/workflows/ci.yml)
+
 Gestiona usuarios, roles e inicio de sesión. Emite tokens **JWT RS256** que los demás servicios validan con la llave pública, sin llamar a auth.
 
 - Puerto: **3001** · Base de datos: **auth_db** · Llama a: ningún servicio
